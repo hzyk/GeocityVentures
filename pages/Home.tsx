@@ -17,24 +17,32 @@ const Home: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gray-50 pt-24 pb-32 text-center">
-        <div className="container mx-auto px-4">
+      <section 
+        className="relative pt-32 pb-40 text-center text-white"
+        style={{
+          backgroundImage: `url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="inline-block mb-8">
-              <Logo className="h-24 md:h-28 w-auto"/>
+              <Logo isWhite={true} className="h-24 md:h-28 w-auto"/>
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 tracking-tight">
-              “Eco Spaces, Expertly Crafted.”
-            </h2>
-            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+              Eco Spaces, Expertly Crafted.
+            </h1>
+            <p className="mt-6 text-lg md:text-xl text-gray-200 leading-relaxed">
               GeoCity Ventures Limited delivers sustainable construction materials and solutions designed for modern, eco-conscious building projects.
             </p>
             <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
-              <Link to="/services" className="px-10 py-4 bg-gray-800 text-white rounded-full font-semibold text-lg hover:bg-black transition-all duration-300 transform hover:scale-105">
-                View Services
+              <Link to="/services" className="px-10 py-4 bg-white text-gray-800 rounded-full font-semibold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105">
+                View Our Services
               </Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="px-10 py-4 bg-green-600 text-white rounded-full font-semibold text-lg hover:bg-green-700 transition-all duration-300 transform hover:scale-105">
-                Contact Us
+                Get a Quote
               </a>
             </div>
           </div>
