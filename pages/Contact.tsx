@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { WHATSAPP_LINK, WHATSAPP_NUMBER, EMAIL_ADDRESS, COMPANY_ADDRESS } from '../constants';
 import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
@@ -26,8 +25,8 @@ const Contact: React.FC = () => {
             {/* Contact Info */}
             <div className="space-y-8">
                <img 
-                src="https://images.pexels.com/photos/8093375/pexels-photo-8093375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="A team of happy, professional builders from Georcity Ventures." 
+                src="https://images.pexels.com/photos/8112328/pexels-photo-8112328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="A friendly Georcity Ventures representative ready to take your call." 
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
               <h2 className="text-3xl font-bold text-gray-800">Contact Information</h2>
