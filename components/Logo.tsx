@@ -16,7 +16,7 @@ const Logo: React.FC<LogoProps> = ({ isWhite = false, className }) => {
       viewBox="0 0 400 150" 
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      aria-label="GeoCity Ventures Limited Logo"
+      aria-label="Georcity Ventures Limited Logo"
     >
       <g transform="scale(0.85) translate(30, -20)">
         {/* Buildings */}
@@ -47,7 +47,7 @@ const Logo: React.FC<LogoProps> = ({ isWhite = false, className }) => {
         textAnchor="middle"
         letterSpacing="1"
       >
-        GEOCITY VENTURES LIMITED
+        GEORCITY VENTURES LIMITED
       </text>
       <text 
         x="200" 

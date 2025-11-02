@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} GeoCity Ventures Limited. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Georcity Ventures Limited. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

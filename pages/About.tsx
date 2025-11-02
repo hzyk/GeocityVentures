@@ -16,7 +16,7 @@ const About: React.FC = () => {
       <header className="bg-gray-800 py-20 text-white text-center" style={{ backgroundImage: `url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="bg-black bg-opacity-50 py-20">
             <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold">About GeoCity Ventures</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">About Georcity Ventures</h1>
             <p className="mt-4 text-lg text-gray-300">Redefining Urban Development in Kenya</p>
             </div>
         </div>
@@ -29,7 +29,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Story & Mission</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                At GeoCity Ventures Limited, we are redefining urban development through sustainable and high-quality building solutions. Founded on the principle of building a better, greener future, we have grown to become a trusted partner for contractors, developers, and homeowners across the nation.
+                At Georcity Ventures Limited, we are redefining urban development through sustainable and high-quality building solutions. Founded on the principle of building a better, greener future, we have grown to become a trusted partner for contractors, developers, and homeowners across the nation.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Our goal is to support Kenya’s growth with eco-smart materials that last. We believe that modern construction should not come at the expense of our environment. That's why we are committed to sourcing and supplying materials that are not only durable and reliable but also environmentally responsible.
@@ -38,7 +38,7 @@ const About: React.FC = () => {
             <div>
               <img 
                 src="https://images.pexels.com/photos/5691535/pexels-photo-5691535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="A smiling African builder representing GeoCity Ventures' professional and positive approach." 
+                alt="A smiling African builder representing Georcity Ventures' professional and positive approach." 
                 className="rounded-lg shadow-xl" 
               />
             </div>

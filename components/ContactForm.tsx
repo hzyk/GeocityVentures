@@ -22,10 +22,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ serviceName }) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    let prefillText = `Hello GeoCity Ventures, I would like to make an inquiry.`;
+    let prefillText = `Hello Georcity Ventures, I would like to make an inquiry.`;
 
     if (serviceName) {
-        prefillText = `Hello GeoCity Ventures, I would like a quote for *${serviceName}*.`;
+        prefillText = `Hello Georcity Ventures, I would like a quote for *${serviceName}*.`;
     }
 
     prefillText += `\n\nMy details:\nName: ${formData.name}\nCompany: ${formData.company || 'N/A'}\nPhone: ${formData.phone}\nMessage: ${formData.message}`;

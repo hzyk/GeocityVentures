@@ -35,7 +35,7 @@ const Home: React.FC = () => {
               Eco Spaces, Expertly Crafted.
             </h1>
             <p className="mt-6 text-lg md:text-xl text-gray-200 leading-relaxed">
-              GeoCity Ventures Limited delivers sustainable construction materials and solutions designed for modern, eco-conscious building projects.
+              Georcity Ventures Limited delivers sustainable construction materials and solutions designed for modern, eco-conscious building projects.
             </p>
             <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
               <Link to="/services" className="px-10 py-4 bg-white text-gray-800 rounded-full font-semibold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105">
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Why Choose GeoCity Ventures?</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Why Choose Georcity Ventures?</h2>
             <p className="mt-4 max-w-2xl mx-auto text-gray-600">We are dedicated to providing unparalleled value and service.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

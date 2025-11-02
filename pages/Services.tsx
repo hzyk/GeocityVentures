@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { SERVICES_DATA, WHATSAPP_LINK } from '../constants';
 import type { Service } from '../types';
@@ -10,7 +11,7 @@ const ServiceCard: React.FC<{ service: Service }> = ({ service }) => (
       <h3 className="text-2xl font-bold text-gray-800 mb-2">{service.title}</h3>
       <p className="text-gray-600 mb-4 leading-relaxed">{service.longDescription || service.description}</p>
       <a
-        href={`${WHATSAPP_LINK}?text=${encodeURIComponent(`Hello GeoCity Ventures, I would like a quote for ${service.title}.`)}`}
+        href={`${WHATSAPP_LINK}?text=${encodeURIComponent(`Hello Georcity Ventures, I would like a quote for ${service.title}.`)}`}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block w-full text-center px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition-all duration-300"

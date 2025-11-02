@@ -3,7 +3,7 @@ import { FaWarehouse, FaTractor, FaTree, FaTools, FaBolt, FaDraftingCompass } fr
 
 export const WHATSAPP_NUMBER = '+254701375119';
 export const WHATSAPP_LINK = `https://wa.me/254701375119`;
-export const EMAIL_ADDRESS = 'info@geocityventures.co.ke';
+export const EMAIL_ADDRESS = 'info@georcityventures.co.ke';
 export const COMPANY_ADDRESS = 'Nairobi, Kenya';
 
 export const NAV_LINKS: NavLink[] = [
